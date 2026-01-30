@@ -15,9 +15,15 @@ This project is created to practice and reinforce both basic and advanced React 
 
 The application is developed step by step following a video course, with possible personal improvements and enhancements along the way.
 
+## 🎥 Course
+
+This project is based on the following course:  
+👉 **[Course link](https://www.youtube.com/watch?v=Rku2F5OGPzU&list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A&index=2)**
+
 ## 🛠 Technologies used
 
 - React
+- Vite
 - JavaScript (ES6+)
 - JSX
 - HTML5
@@ -48,9 +54,15 @@ The project is currently under development and is intended for educational purpo
 
 Проект разрабатывается шаг за шагом вместе с видеокурсом, с возможными личными улучшениями и доработками по ходу обучения.
 
+## 🎥 Курс
+
+Проект создаётся по курсу:  
+👉 **[Ссылка на курс](https://www.youtube.com/watch?v=Rku2F5OGPzU&list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A&index=2)**
+
 ## 🛠 Используемые технологии
 
 - React
+- Vite
 - JavaScript (ES6+)
 - JSX
 - HTML5
