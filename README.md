@@ -1,12 +1,77 @@
-# React + Vite
+# Todo List (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Todo List** educational project built with **React** as part of a YouTube course.
 
-Currently, two official plugins are available:
+## 📌 About the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is created to practice and reinforce both basic and advanced React concepts, including:
 
-## Expanding the ESLint configuration
+- components and props
+- state management
+- hooks
+- working with lists
+- event handling
+- JSX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application is developed step by step following a video course, with possible personal improvements and enhancements along the way.
+
+## 🎥 Course
+
+This project is based on the following course:  
+👉 **[Course link](https://www.youtube.com/watch?v=TmgbYJgcw9c&list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A&index=1)**
+
+## 🛠 Technologies used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- HTML5
+- CSS
+
+## 🚀 Project goal
+
+The main goal of this project is to gain hands-on experience with React and better understand frontend application architecture.
+
+## 📚 Status
+
+The project is currently under development and is intended for educational purposes only.
+
+# Todo List (React)
+
+Учебный проект **Todo List**, созданный с использованием **React** в рамках онлайн-курса на YouTube.
+
+## 📌 О проекте
+
+Этот проект предназначен для практики и закрепления базовых и продвинутых концепций React, таких как:
+
+- компоненты и пропсы
+- состояние (state)
+- хуки
+- работа со списками
+- обработка событий
+- JSX
+
+Проект разрабатывается шаг за шагом вместе с видеокурсом, с возможными личными улучшениями и доработками по ходу обучения.
+
+## 🎥 Курс
+
+Проект создаётся по курсу:  
+👉 **[Ссылка на курс](https://www.youtube.com/watch?v=TmgbYJgcw9c&list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A&index=1)**
+
+## 🛠 Используемые технологии
+
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- HTML5
+- CSS
+
+## 🚀 Цель проекта
+
+Основная цель — получить практический опыт разработки на React и лучше понять архитектуру фронтенд-приложений.
+
+## 📚 Статус
+
+Проект находится в разработке и используется исключительно в учебных целях.
