@@ -1,6 +1,7 @@
+import useInCompleteTasksScroll from "../hooks/useInCompleteTasksScroll";
+
 import { createContext, use } from "react";
 import useTasks from "../hooks/useTasks";
-import useInCompleteTasksScroll from "../hooks/useInCompleteTasksScroll";
 
 export const TasksContext = createContext({});
 
@@ -20,6 +21,9 @@ export const TasksProvider = (props) => {
     setSearchQuery,
     newTaskInputRef,
     addTask,
+
+    disappearingTaskId,
+    appearingTaskId,
   } = useTasks();
 
   const { firstIncompleteTaskRef, firstIncompleteTaskId } =
@@ -42,6 +46,9 @@ export const TasksProvider = (props) => {
         setSearchQuery,
         newTaskInputRef,
         addTask,
+
+        disappearingTaskId,
+        appearingTaskId,
       }}
     >
       {children}
