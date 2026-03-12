@@ -26,7 +26,7 @@ const localAPI = {
   getById: async (id) => {
     await delay();
 
-    return read().find((task) => tasks.id === id) ?? null;
+    return read().find((task) => task.id === id) ?? null;
   },
 
   add: async (task) => {
@@ -45,7 +45,7 @@ const localAPI = {
   delete: async (id) => {
     await delay();
 
-    const tasks = read().filter((task) => task.id === id);
+    const tasks = read().filter((task) => task.id !== id);
 
     write(tasks);
   },

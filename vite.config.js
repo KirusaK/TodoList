@@ -9,7 +9,6 @@ export default defineConfig(({ mode }) => {
   return {
     base: isProd ? "/TodoList/" : "/",
     plugins: [react()],
-    base: "/TodoList/",
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),
